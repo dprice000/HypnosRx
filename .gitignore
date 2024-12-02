@@ -402,5 +402,5 @@ FodyWeavers.xsd
 # Sqlite Files
 *.db
 *.db3
-*.Sqlite
-*.Sqlite3
+*.sqlite
+*.sqlite3
