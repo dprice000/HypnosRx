@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="bb6c7387-ea99-4bd9-a248-e78080352521" ChangeDateTime="12/03/2024 01:36:00">
+    <Property Name="ElementName" Value="[dbo].[WorkoutSessions].[Date]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WorkoutSessions]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Timestamp" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="99d1f3a3-db15-4b4d-a36b-b363d27a20e5" ChangeDateTime="12/03/2024 01:37:32">
+    <Property Name="ElementName" Value="[dbo].[WorkoutSessions].[ElapsedTime]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WorkoutSessions]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ElapsedMin" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0f051945-51c5-44ef-844b-df5f0594eaae" ChangeDateTime="12/03/2024 01:37:42">
+    <Property Name="ElementName" Value="[dbo].[WorkoutSessions].[ElevatedHrTime]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WorkoutSessions]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ElevatedHrMin" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="21fe1689-6411-4fdd-aa1e-83679010825b" ChangeDateTime="12/03/2024 01:38:37">
+    <Property Name="ElementName" Value="[dbo].[WorkoutSessions].[ElapsedMin]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WorkoutSessions]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ElapsedMins" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="82ec0978-fe83-4618-ba34-dc58647f098b" ChangeDateTime="12/03/2024 01:38:39">
+    <Property Name="ElementName" Value="[dbo].[WorkoutSessions].[ElevatedHrMin]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WorkoutSessions]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ElevatedHrMins" />
+  </Operation>
+</Operations>
